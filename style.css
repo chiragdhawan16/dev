@@ -90,11 +90,11 @@ align-items: center;
 }
 
 .side-by-side1-right,.side-by-side2-left{
-	background-color: rgb(60, 60, 60,0);
+	background-color: rgb(60, 60, 60,0.7);
 	padding: 20px;
 }
 .side-by-side1-right:hover,.side-by-side2-left:hover{
-	background-color: rgb(60, 60, 60,0.7);
+	background-color: #403f3f;
 }
 
 .side-by-side1 img,.side-by-side2 img{
