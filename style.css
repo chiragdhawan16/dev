@@ -21,7 +21,7 @@ html {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	z-index: 999;
+	z-index: 99;
 	background-color: rgb(60, 60, 60,0.7);
 	position:sticky;	
 	top:0;
@@ -54,7 +54,7 @@ align-items: center;
 
 
 
-.menu-list span{
+.navbar span{
 	
 	cursor: pointer;
 	display: none;		
@@ -206,17 +206,40 @@ align-items: center;
 	display: flex;
 	justify-content: space-between;
 }
-.menu-list span{
-	display: block;	
+.navbar span{
+	display: inline;	
 	margin-right: 50px;
+	z-index: 999;
 }
-.menu-list ul{
-display: none;
+ul.nav-list{
 	
+	background-color: rgb(60, 60, 60,0.9);
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	padding-top: 80px;
+	opacity:0;
+	pointer-events: none;
+
+	
+}
+ul.nav-list li{
+	padding-top:30px;
+	
+
 }
 
 .logo{
 	margin-left: 50px;
+	z-index: 999;
+}
+ul.open-menu{
+	opacity:1;
+pointer-events: auto;
 }
 .main-image img{
 	width: 100%;
@@ -259,14 +282,10 @@ display: none;
 	margin: 10px;
 }
 
-
 .footer{
 	flex-direction:column	;
 }
-
 	
-
-
 .footer div{
 	width: 100%;
 	padding: 15px;
