@@ -28,7 +28,7 @@
 	{
 		var x=document.getElementById("menu");
 		var y=document.getElementById("id");
-		
+		if(window.innerWidth<800){
 		if(y.classList.contains("open-menu"))
 		{
 			
@@ -39,6 +39,7 @@
 			
 			y.classList.add("open-menu");
 		}
+	}
 		
 	}
 
