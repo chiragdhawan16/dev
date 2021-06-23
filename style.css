@@ -117,6 +117,7 @@ align-items: center;
 	width: 80%;
 	margin: 0px auto;
 
+
 }
 .cards h2 ,.cards-2 h2{
 	
@@ -137,10 +138,10 @@ align-items: center;
 .cards div{
 	width: 33.3%;
 	
-	
 	border-radius: 10px;
 
 }
+
 .cards-2 div{
 	width: 50%;
 	
@@ -149,6 +150,12 @@ align-items: center;
 .cards p,.cards-2 p{
 	margin: 10px;
 	padding: 0 20px;
+	
+	
+
+}
+.card1,.card2,.card3{
+
 }
 
 
